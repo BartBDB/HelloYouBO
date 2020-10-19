@@ -1,6 +1,4 @@
-BELANGRIJK: Het eindproject heeft Scratch Link nodig om te werken!
-
-
+Instructies voor het laden van het eindproject staan in Instructies eindproject.txt.
 
 Wat is een lage toon? 
 

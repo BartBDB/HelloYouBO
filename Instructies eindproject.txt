@@ -1,0 +1,8 @@
+BELANGRIJK: Dit is nodig om het eindproject te laden!
+
+Zorg ervoor dat Scratch Link is geïnstalleerd, dat is nodig om de Micro:Bit te verbinden met Scratch.
+Zet de Bluetooth op de pc aan, anders kan de bit niet verbinden.
+Flash scratch-microbit-1.1.0.hex naar de Micro:Bit, het bestand staat ook in de repo.
+Laad Eindproject.sb3 in de Scratch editor.
+Als het geladen is, klik op de knop linksonder, en dan op Micro:Bit.
+Als het goed is, zie je de Micro:Bit verschijnen. Klik erop en dan werkt het programma.
