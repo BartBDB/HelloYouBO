@@ -1,3 +1,7 @@
+BELANGRIJK: Het eindproject heeft Scratch Link nodig om te werken!
+
+
+
 Wat is een lage toon? 
 
 Een lage toon is een toon met een lage frequentie.
