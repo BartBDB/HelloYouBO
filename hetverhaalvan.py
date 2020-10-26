@@ -22,10 +22,28 @@ if vraag1 == ("A") or ("a"):
         print("Ze hadden ook een lijn openstaan voor contact met de politie.")
         print("Toen Wahhab snel wou wegrennen, stond de politie al voor de deur.")
         print("Dit is dus het einde van het verhaal. Wahhab zit vast in de cel en kan er voorlopig ook niet uitkomen.")
+        print("Ik kan weinig doen nu voor zijn familie. Helaas gebeurt dit vaker")
+        print("Dossier gesloten.")
     else:
         print("Wahhab ging snel naar huis. Hij kon veel spullen pakken, maar hij hoorde de sirenes, dus het was een slimmer idee om op de voet te gaan.")
         print("Waar ging Wahhab eerst heen?")
-        print("A - Wahhab ")
+        vraag4 = input("A of B? ")
+        print("A - Zijn broer")
+        print("B - Zijn ouders")
+        if vraag2 == ("A") or ("a"):
+            print("Wahhab kwam bij zijn broer aan, die ook een Jezidi is.")
+            print("Samen besloten ze om naar Turkije te vluchten, en vanaf daar een vliegtuig naar een veilig land te nemen")
+            print("Ze stapten in de auto van de broer, en reden weg.")
+            print("Naarmaate het later werd hadden ze een plek nodig om te slapen, waar sliepen ze?")
+            print("A - In de auto.")
+            print("B - In een goedkoop hotel.")
+            #Hier komt hetzelfde als vraag 3, simpel copy-paste dus
+        else:
+            print("Wahhab ging naar zijn ouders toe voor advies, al waren ze zelf geen Jezidi")
+            print("Gelukkig wisten ze wel wat er gaande was, dus konden ze Wahhab helpen")
+            print("Ze gingen Wahhab helpen om bij de grens te komen, waar hij zelf wel zijn gang moet gaan")
+            print("Eenmaal in Turkije zou hij een vliegtuig kunnen nemen naar een ander land om veilig te zijn.")
+            
 else:
     print("Wahhab pakte gauw alle spullen die hij nodig had: tandenborstel, kleding, portemonee, etc")
     print("Wahhab stapte in zijn auto en reed snel weg")
@@ -33,4 +51,22 @@ else:
     print("A - Hij nam zijn broer mee")
     print("B - Hij ging alleen")
     vraag3 = input("A of B? ")
-    
+    if vraag3 == ("A") or ("a"):
+        print("Wahhab kwam bij zijn broer aan, die ook een Jezidi is.")
+        print("Samen besloten ze om naar Turkije te vluchten, en vanaf daar een vliegtuig naar een veilig land te nemen")
+        print("Ze stapten in de auto van de broer, en reden weg.")
+        print("Naarmaate het later werd hadden ze een plek nodig om te slapen, waar sliepen ze?")
+        print("A - In de auto.")
+        print("B - In een goedkoop hotel.")
+        vraag5 = input("A of B? ")
+        if vraag5 == ("A") or ("a"):
+            print("Ze besloten dat het veiliger was om in de auto te slapen, op een donkere plek")
+            print("Gelukkig maar, want blijkbaar waren de hotels uitgekamt, en waren andere Jezidi's opgepakt.")
+            print("Na een nacht rust kwamen ze eindelijk aan bij Turkije. Eindelijk veilig van de politie.")
+            print("Maar goed, nu komt nog een belangrijk punt: naar welk land vluchten ze?")
+        else:
+            print("Ze besloten om in een goedkoop hotel te gaan slapen")
+            print("Jammer genoeg werden alle hotels in de buurt uitgekamt, dus werden ze gevonden door de politie.")
+            print("Ze zitten nu vast in de cel, en komen er voorlopig niet uit.")
+            print("Ik kan helaas niets doen voor de familie, dit soort zaken gebeuren vaker.")
+            print("Dossier gesloten.")       
