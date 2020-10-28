@@ -1,6 +1,6 @@
 import os
 
-print("Dit is mijn eindproject: de tetztzbased applicatie in Python.")
+print("Dit is mijn eindproject: de textbased applicatie in Python.")
 print("Dit keuzeverhaal gaat over Wahhab, uit Irak.")
 print("Door spanningen in Irak is er een oorlog uitgebroken, en kon Wahhab zichzelf nietmeer zijn.")
 print("Het verhaal start vlak voordat hij gaat vluchten.")
@@ -109,6 +109,27 @@ else:
                 os.system("cls")
                 print("De broers besloten om naar Nederland te gaan.")
                 print("Goede keus, want Nederland is meestal best wel soepel wanneer het komt tot inburgeren.")
+                print("Na een lange tijd wachten in het gebouw kwamen ze bij mij aan, de begeleider.")
+                print("Ik heb met ze besproken hoe het vanaf hier verder gaat.")
+                print("Ze willen uiteindelijk dus een veilige plek om te wonen.")
+                print("Er was ook gevraagd of ik hun familie kan halen uit Irak.")
+                print("Wie zal ik gaan bellen daarvoor?")
+                print("A - De politie van Irak")
+                print("B - De overheid van Irak")
+                vraag8 = input("A of B? ")
+                if vraag8 == ("A") or ("a"):
+                    os.system("cls")
+                    print("Ik had geprobeerd om de politie in Irak te bellen.")
+                    print("Ik had het eigenlijk al een beetje verwacht, maar zij konden niets voor mij doen.")
+                    print("Wat ik niet had verwacht, was toen ik de overheid daar had gebeld, dat er werd gezegd dat ze er niet meer uit konden.")
+                    print("Ik had het slechte nieuws verteld. Ze waren boos, maar begrepen het wel.")
+                    print("Na een paar weken kregen ze de brief binnen waarin stond dat ze hier mochten blijven.")
+                    print("Nu wonen ze dus hier, zonder familie helaas.")
+                    print("Dossier gesloten.")
+                else:
+                    os.system("cls")
+                    print("Ik had geprobeerd om de overheid in Irak te bellen.")
+                    print("Gelukkig was ik op tijd met bellen, dus kon ik ervoor zorgen dat de familie op een vliegtuig naar Nederland werd gezet.")
         else:
             os.system("cls")
             print("Ze besloten om in een goedkoop hotel te gaan slapen")
