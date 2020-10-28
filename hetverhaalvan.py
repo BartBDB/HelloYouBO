@@ -13,6 +13,7 @@ print("A - Wahhab ging naar zijn buren toe, om te vragen of zij er meer vanaf wi
 print("B - Wahhab ging snel zijn spullen pakken om te vluchten, om enige confrontatie te voorkomen.")
 vraag1 = input("A of B? ")
 if vraag1 == ("A") or ("a"):
+    os.system("cls")
     print("Wahhab besloot om naar zijn buren te gaan en om te vragen of zij meer wisten.")
     print("Jammer genoeg wisten ze er zelf redelijk weinig van., al vertrouwde Wahhab het niet helemaal.")
     print("A - Wahhab bleef doorvragen.")
@@ -20,7 +21,7 @@ if vraag1 == ("A") or ("a"):
     vraag2 = input("A of B? ")
     if vraag2 == ("A") or ("a"):
         os.system("cls")
-        print("Wahhab bleef doorvragen")
+        print("Wahhab bleef doorvragen.")
         print("Het blijkt dus dat zijn buren hem hadden verraden, voor een grote som geld.")
         print("Ze hadden ook een lijn openstaan voor contact met de politie.")
         print("Toen Wahhab snel wou wegrennen, stond de politie al voor de deur.")
@@ -90,7 +91,7 @@ else:
                 if vraag7 == ("A") or ("a"):
                     os.system("cls")
                     print("Ik probeerde dus om te bellen, om te zien of ik iets kon betekenen voor ze.")
-                    print("Gelukkig was ik net op tijd met bellen, en kon ik ervoor zorgen dat ze naar de grens kwamen".)
+                    print("Gelukkig was ik net op tijd met bellen, en kon ik ervoor zorgen dat ze naar de grens kwamen.")
                     print("Helaas werden ze door de overheid weer teruggestuurd naar Irak.")
                     print("De broers waren teleurgesteld, want waarschijnlijk kon het in Nederland wel.")
                     print("Dit is dus alles wat ik helaas voor ze kon doen, alhoewel ze nu wel samen in een huis wonen.")
