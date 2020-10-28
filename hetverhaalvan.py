@@ -77,7 +77,7 @@ else:
             print("A - Duitsland")
             print("B - Nederland")
             vraag6 = input("A of B? ")
-            if vraag6 = ("A") or ("a"):
+            if vraag6 == ("A") or ("a"):
                 os.system("cls")
                 print("De broers besloten om naar Duitsland te vluchten.")
                 print("Na een redelijk korte vlucht komen ze in Duitsland aan.")
