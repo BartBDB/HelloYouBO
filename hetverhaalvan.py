@@ -1,3 +1,5 @@
+import os
+
 print("Dit is mijn eindproject: de tetztzbased applicatie in Python.")
 print("Dit keuzeverhaal gaat over Wahhab, uit Irak.")
 print("Door spanningen in Irak is er een oorlog uitgebroken, en kon Wahhab zichzelf nietmeer zijn.")
@@ -17,6 +19,7 @@ if vraag1 == ("A") or ("a"):
     print("B - Wahhab ging terug naar zijn huis, om spullen te pakken en te vluchten.")
     vraag2 = input("A of B? ")
     if vraag2 == ("A") or ("a"):
+        os.system("cls")
         print("Wahhab bleef doorvragen")
         print("Het blijkt dus dat zijn buren hem hadden verraden, voor een grote som geld.")
         print("Ze hadden ook een lijn openstaan voor contact met de politie.")
@@ -25,12 +28,14 @@ if vraag1 == ("A") or ("a"):
         print("Ik kan weinig doen nu voor zijn familie. Helaas gebeurt dit vaker")
         print("Dossier gesloten.")
     else:
+        os.system("cls")
         print("Wahhab ging snel naar huis. Hij kon veel spullen pakken, maar hij hoorde de sirenes, dus het was een slimmer idee om op de voet te gaan.")
         print("Waar ging Wahhab eerst heen?")
         vraag4 = input("A of B? ")
         print("A - Zijn broer")
         print("B - Zijn ouders")
-        if vraag2 == ("A") or ("a"):
+        if vraag4 == ("A") or ("a"):
+            os.system("cls")
             print("Wahhab kwam bij zijn broer aan, die ook een Jezidi is.")
             print("Samen besloten ze om naar Turkije te vluchten, en vanaf daar een vliegtuig naar een veilig land te nemen")
             print("Ze stapten in de auto van de broer, en reden weg.")
@@ -39,12 +44,15 @@ if vraag1 == ("A") or ("a"):
             print("B - In een goedkoop hotel.")
             #Hier komt hetzelfde als vraag 3, simpel copy-paste dus
         else:
+            os.system("cls")
             print("Wahhab ging naar zijn ouders toe voor advies, al waren ze zelf geen Jezidi")
             print("Gelukkig wisten ze wel wat er gaande was, dus konden ze Wahhab helpen")
             print("Ze gingen Wahhab helpen om bij de grens te komen, waar hij zelf wel zijn gang moet gaan")
             print("Eenmaal in Turkije zou hij een vliegtuig kunnen nemen naar een ander land om veilig te zijn.")
             
+            
 else:
+    os.system("cls")
     print("Wahhab pakte gauw alle spullen die hij nodig had: tandenborstel, kleding, portemonee, etc")
     print("Wahhab stapte in zijn auto en reed snel weg")
     print("Reed hij eerst langs zijn broer om hem mee te nemen of ging hij alleen?")
@@ -52,6 +60,7 @@ else:
     print("B - Hij ging alleen")
     vraag3 = input("A of B? ")
     if vraag3 == ("A") or ("a"):
+        os.system("cls")
         print("Wahhab kwam bij zijn broer aan, die ook een Jezidi is.")
         print("Samen besloten ze om naar Turkije te vluchten, en vanaf daar een vliegtuig naar een veilig land te nemen")
         print("Ze stapten in de auto van de broer, en reden weg.")
@@ -60,11 +69,47 @@ else:
         print("B - In een goedkoop hotel.")
         vraag5 = input("A of B? ")
         if vraag5 == ("A") or ("a"):
+            os.system("cls")
             print("Ze besloten dat het veiliger was om in de auto te slapen, op een donkere plek")
             print("Gelukkig maar, want blijkbaar waren de hotels uitgekamt, en waren andere Jezidi's opgepakt.")
             print("Na een nacht rust kwamen ze eindelijk aan bij Turkije. Eindelijk veilig van de politie.")
             print("Maar goed, nu komt nog een belangrijk punt: naar welk land vluchten ze?")
+            print("A - Duitsland")
+            print("B - Nederland")
+            vraag6 = input("A of B? ")
+            if vraag6 = ("A") or ("a"):
+                os.system("cls")
+                print("De broers besloten om naar Duitsland te vluchten.")
+                print("Na een redelijk korte vlucht komen ze in Duitsland aan.")
+                print("Er was alleen 1 probleem: het is behoorlijk lastig om als vluchteling in Duitsland in te burgeren.")
+                print("Ze kwamen uiteindelijk bij mij aan, in het asielzoekerscentrum.")
+                print("Ze vroegen of ik wat voor hun familie kon doen. Zou ik proberen om te bellen?")
+                print("A - Probeer om te bellen.")
+                print("B - Bewaar het voor later.")
+                vraag7 = input("A of B? ")
+                if vraag7 == ("A") or ("a"):
+                    os.system("cls")
+                    print("Ik probeerde dus om te bellen, om te zien of ik iets kon betekenen voor ze.")
+                    print("Gelukkig was ik net op tijd met bellen, en kon ik ervoor zorgen dat ze naar de grens kwamen".)
+                    print("Helaas werden ze door de overheid weer teruggestuurd naar Irak.")
+                    print("De broers waren teleurgesteld, want waarschijnlijk kon het in Nederland wel.")
+                    print("Dit is dus alles wat ik helaas voor ze kon doen, alhoewel ze nu wel samen in een huis wonen.")
+                    print("Dossier gesloten.")
+                else:
+                    os.system("cls")
+                    print("Ik besloot om later te bellen, omdat er belangrijkere zaken waren waaraan ik moest gaan werken.")
+                    print("Ik belde de volgende dag, en het bleek dat de familie vast zat in de cel.")
+                    print("Ik kan helaas hier niets voor ze doen.")
+                    print("De broers waren boos op mij geworden omdat ik later belde, zelfs nadat ik had gezegd dat er belangrijkere zaken waren die ik moest doen.")
+                    print("Ze zijn uiteindelijk zelf teruggevlogen naar Irak om ze uit de gevangenis proberen te krijgen.")
+                    print("Ik heb niet meer van hun gehoord.")
+                    print("Dossier gesloten")
+            else:
+                os.system("cls")
+                print("De broers besloten om naar Nederland te gaan.")
+                print("Goede keus, want Nederland is meestal best wel soepel wanneer het komt tot inburgeren.")
         else:
+            os.system("cls")
             print("Ze besloten om in een goedkoop hotel te gaan slapen")
             print("Jammer genoeg werden alle hotels in de buurt uitgekamt, dus werden ze gevonden door de politie.")
             print("Ze zitten nu vast in de cel, en komen er voorlopig niet uit.")
