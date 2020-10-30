@@ -15,7 +15,7 @@ vraag1 = input("A of B? ")
 if vraag1 == ("A") or ("a"):
     os.system("cls")
     print("Wahhab besloot om naar zijn buren te gaan en om te vragen of zij meer wisten.")
-    print("Jammer genoeg wisten ze er zelf redelijk weinig van., al vertrouwde Wahhab het niet helemaal.")
+    print("Jammer genoeg wisten ze er zelf redelijk weinig van, al vertrouwde Wahhab het niet helemaal.")
     print("A - Wahhab bleef doorvragen.")
     print("B - Wahhab ging terug naar zijn huis, om spullen te pakken en te vluchten.")
     vraag2 = input("A of B? ")
@@ -140,9 +140,8 @@ if vraag1 == ("A") or ("a"):
             print("Ze gingen Wahhab helpen om bij de grens te komen, waar hij zelf wel zijn gang moet gaan")
             print("Eenmaal in Turkije zou hij een vliegtuig kunnen nemen naar een ander land om veilig te zijn.")
             print("Hij kon veilig gaan rijden vanaf dat punt, dus leende hij de auto van zijn ouders om veilig weg te komen.")
-            print("Eenmaal in Turkije kon hij veilig naar Nederland vliegen.")
-            print("Dat is wat hij allemaal aan mij had verteld.")
-            print("Helaas kon ik zijn familie niet bereiken, ik vrees het ergste.")
+            print("Dat is wat zijn broer had verteld.")
+            print("Helaas kon ik hem niet meer bereiken, dus weet ik niet meer wat ik moet doen.")
             print("Dossier gesloten.")
             
             
@@ -306,7 +305,7 @@ else:
                     os.system("cls")
                     print("Wahhab ging door een gat via het hek over de grens.")
                     print("Hij rende snel weg nadat hij door het gat was gegaan, en was gelukkig niet gespot door bewaking.")
-                    print("Daarna nam hij snel een vliegtuig naar Nederland, en kwam hij bij het asielzoekrscentrum aan.")
+                    print("Daarna nam hij snel een vliegtuig naar Nederland, en kwam hij bij het asielzoekerscentrum aan.")
                     print("Nu zit hij in een huis, te wachten tot zijn familie ook vlucht.")
                     print("Dossier gesloten.")
                 else:
@@ -341,7 +340,7 @@ else:
                     else:
                         os.system("cls")
                         print("Hij besloot om te liften.")
-                        print("Hij moest wel betalen, maar hijw kwam veilig aan.")
+                        print("Hij moest wel betalen, maar hij kwam veilig aan.")
                         print("Daardoor zit hij nu nog een paar dagen vast in Turkije, maar hij komt in ieder geval veilig aan.")
                         print("Dossier gesloten.")
                 else:
